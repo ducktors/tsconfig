@@ -6,12 +6,8 @@
   "repository": "ducktors/tsconfig",
   "author": "Ducktors <your@ducktors.dev> (https://ducktors.dev)",
   "main": "tsconfig.json",
-  "engines": {
-    "node": ">=16.0.0"
-  },
   "files": [
-    "tsconfig.json",
-    "tsup.config.ts"
+    "tsconfig.json"
   ],
   "keywords": [
     "tsconfig",

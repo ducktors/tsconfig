@@ -7,13 +7,13 @@
     "esModuleInterop": true,
     "strict": true,
     "resolveJsonModule": true,
-    "jsx": "react",
     "newLine": "lf",
     "noUnusedLocals": true,
     "noFallthroughCasesInSwitch": true,
     "useDefineForClassFields": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
+    "importHelpers": true,
     "lib": [
       "esnext"
     ]
