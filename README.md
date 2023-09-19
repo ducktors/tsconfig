@@ -17,8 +17,8 @@ $ npm install --save-dev @ducktors/tsconfig
   "extends": "@ducktors/tsconfig",
   "compilerOptions": {
     "outDir": "build",
-    "target": "es2018",
-    "lib": ["es2018"]
+    "target": "es2022",
+    "lib": ["es2022"]
   }
 }
 ```
