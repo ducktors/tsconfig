@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install --save-dev @ducktors/tsconfig
+$ pnpm add -D @ducktors/tsconfig
 ```
 
 ## Usage
@@ -16,12 +16,11 @@ $ npm install --save-dev @ducktors/tsconfig
 {
   "extends": "@ducktors/tsconfig",
   "compilerOptions": {
-    "outDir": "build",
-    "target": "es2018",
-    "lib": ["es2018"]
+    "outDir": "dist"
   }
 }
 ```
+Check [fastify-tsconfig](https://github.com/fastify/tsconfig) for other options.
 
 **This project is inspired by**: [sindresorhus/tsconfig](https://github.com/sindresorhus/tsconfig)
 

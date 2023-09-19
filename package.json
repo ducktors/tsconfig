@@ -1,6 +1,6 @@
 {
   "name": "@ducktors/tsconfig",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Shared TypeScript configuration",
   "license": "MIT",
   "repository": "ducktors/tsconfig",
@@ -17,9 +17,12 @@
     "configuration"
   ],
   "devDependencies": {
-    "typescript": "^4.9.5"
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "typescript": "^4.9.5"
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify-tsconfig": "^2.0.0"
   }
 }
